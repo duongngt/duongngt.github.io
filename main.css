@@ -76,6 +76,7 @@ html,body {
 	opacity: 0;
 	font-size:300px;
 	color: #03e3e2;
+	font-family: Helvetica;
 	font-weight: bold;
 	letter-spacing: 10px;
 	animation: appear 3s forwards;
