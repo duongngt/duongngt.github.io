@@ -14,7 +14,7 @@ export const profile = {
   phone: '079 546 6457',
   phoneHref: '+84795466457',
   github: 'https://github.com/duongngt',
-  avatar: '/img/avatar.png',
+  avatar: '/img/avatar.jpg',
 }
 
 export const hero = {
@@ -22,8 +22,8 @@ export const hero = {
   script: { vi: 'Tôi xây dựng giao diện', en: 'I build interfaces' } as Localized,
   tagline: { vi: 'đẹp mắt & dễ dùng.', en: 'that look good & feel good.' } as Localized,
   intro: {
-    vi: 'Front-end Engineer tại Monstar Lab Vietnam. Kết hợp giữa thiết kế và code — từ banner thương mại điện tử Nhật Bản đến ứng dụng web ReactJS & Next.js.',
-    en: 'Front-end Engineer at Monstar Lab Vietnam. Blending design and code — from Japanese e-commerce banners to ReactJS & Next.js web applications.',
+    vi: 'Front-end Engineer tại Monstar Lab Vietnam. Kết hợp giữa thiết kế và code — từ banner, landing page thương mại điện tử đến ứng dụng web ReactJS & Next.js.',
+    en: 'Front-end Engineer at Monstar Lab Vietnam. Blending design and code — from e-commerce banners and landing pages to ReactJS & Next.js web applications.',
   } as Localized,
   badge: { vi: 'DESIGN · CODE · AI · ', en: 'DESIGN · CODE · AI · ' } as Localized,
 }
@@ -57,7 +57,7 @@ export const about = {
 export const services: { title: Localized; desc: Localized; icon: string }[] = [
   {
     icon: 'code',
-    title: { vi: 'Phát triển Front-end', en: 'Front-end Development' },
+    title: { vi: 'Phát triển Website', en: 'Website Development' },
     desc: { vi: 'Ứng dụng web hiện đại với ReactJS & Next.js, code sạch, dễ mở rộng.', en: 'Modern web apps with ReactJS & Next.js — clean, scalable code.' },
   },
   {
@@ -142,7 +142,7 @@ export const experience: { period: string; role: Localized; company: string; poi
   },
   {
     period: '2019 – 2020',
-    role: { vi: 'Front-end Developer', en: 'Front-end Developer' },
+    role: { vi: 'Front-end Engineer', en: 'Front-end Engineer' },
     company: 'Hifiveplus',
     points: [
       { vi: 'Phát triển giao diện web responsive', en: 'Developed responsive web interfaces' },
@@ -193,4 +193,4 @@ export const process: { title: Localized; desc: Localized }[] = [
   { title: { vi: 'Bàn giao', en: 'Ship' }, desc: { vi: 'Tối ưu, triển khai và đồng hành sau ra mắt.', en: 'Optimise, deploy and support after launch.' } },
 ]
 
-export const archive = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'].map((n) => `/img/${n}.png`)
+export const archive = ['1', '2', '3', '4', '5', '6', '7', '8', '9'].map((n) => `/img/${n}.png`)
