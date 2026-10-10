@@ -43,7 +43,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <head>
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js');" + gateScript }} />
       </head>
-      <body>
+      {/* Extension (vd. Grammarly) hay chèn thuộc tính vào <body> trước khi React hydrate */}
+      <body suppressHydrationWarning>
         <Nav locale={locale} />
         <main>{children}</main>
         <Footer locale={locale} />
