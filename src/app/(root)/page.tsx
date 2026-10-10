@@ -1,5 +1,5 @@
-// Trang gốc "/": chuyển tới /vi/ hoặc /en/ theo ngôn ngữ trình duyệt.
-const script = `location.replace((navigator.language || '').toLowerCase().startsWith('vi') ? '/vi/' : '/en/')`
+// Trang gốc "/": luôn chuyển tới tiếng Anh (ngôn ngữ mặc định).
+const script = `location.replace('/en/')`
 
 export default function RootPage() {
   return (
